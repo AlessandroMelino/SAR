@@ -1,0 +1,8 @@
+;#<FEEDBACK># ARM Linker, 5.03 [Build 76]: Last Updated: Mon Oct 21 16:02:39 2019
+;VERSION 0.2
+;FILE funciones.o
+envio_can <= USED 0
+;FILE lpc_fullcan_sw.o
+FullCAN_PushMessage <= USED 0
+;FILE main.o
+;FILE setup.o

@@ -1,0 +1,22 @@
+Dependencies for Project 'Nodo Motores', Target 'MCB2100': (DO NOT MODIFY !)
+F (.\Startup.s)(0x5D15A308)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\startup.o --depend .\obj\startup.d)
+F (.\setup.c)(0x5EDA1439)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\setup.o --omf_browse .\obj\setup.crf --depend .\obj\setup.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (F:\BECA\KATE\Códigos\LPC2129\NODO_MOTORES\LPC_FullCAN_SW.h)(0x5DB71157)
+I (F:\BECA\KATE\Códigos\LPC2129\NODO_MOTORES\setup.h)(0x5EDA1439)
+I (F:\BECA\KATE\Códigos\LPC2129\NODO_MOTORES\funciones.h)(0x5EBA7535)
+F (.\funciones.c)(0x5EDA2ABE)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\funciones.o --omf_browse .\obj\funciones.crf --depend .\obj\funciones.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (F:\BECA\KATE\Códigos\LPC2129\NODO_MOTORES\LPC_FullCAN_SW.h)(0x5DB71157)
+I (F:\BECA\KATE\Códigos\LPC2129\NODO_MOTORES\funciones.h)(0x5EBA7535)
+I (F:\BECA\KATE\Códigos\LPC2129\NODO_MOTORES\setup.h)(0x5EDA1439)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C80BA4)
+F (.\LPC_FullCAN_SW.c)(0x5E27386D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\lpc_fullcan_sw.o --omf_browse .\obj\lpc_fullcan_sw.crf --depend .\obj\lpc_fullcan_sw.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21XX.H)(0x51C80D9C)
+I (F:\BECA\KATE\Códigos\LPC2129\NODO_MOTORES\LPC_FullCAN_SW.h)(0x5DB71157)
+I (F:\BECA\KATE\Códigos\LPC2129\NODO_MOTORES\setup.h)(0x5EDA1439)
+F (.\main.c)(0x5EDA1FB0)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (F:\BECA\KATE\Códigos\LPC2129\NODO_MOTORES\LPC_FullCAN_SW.h)(0x5DB71157)
+I (F:\BECA\KATE\Códigos\LPC2129\NODO_MOTORES\setup.h)(0x5EDA1439)
+I (F:\BECA\KATE\Códigos\LPC2129\NODO_MOTORES\funciones.h)(0x5EBA7535)

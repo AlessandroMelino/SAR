@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\obj\startup.o"
+".\obj\setup.o"
+".\obj\funciones.o"
+".\obj\lpc_fullcan_sw.o"
+".\obj\main.o"
+--strict --scatter ".\Obj\Nodo Motores.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Lst\Nodo Motores.map" -o ".\Obj\Nodo Motores.axf"

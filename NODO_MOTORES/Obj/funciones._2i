@@ -1,0 +1,5 @@
+--thumb -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -O0 --apcs=interwork 
+-I C:\Keil\ARM\RV31\INC
+-I C:\Keil\ARM\CMSIS\Include
+-I C:\Keil\ARM\Inc\Philips
+-o .\obj\funciones.o --depend .\obj\funciones.d --feedback ".\Obj\Nodo Motores.fed" "funciones.c"

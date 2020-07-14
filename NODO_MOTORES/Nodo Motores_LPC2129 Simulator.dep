@@ -1,0 +1,24 @@
+Dependencies for Project 'Nodo Motores', Target 'LPC2129 Simulator': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4C8111E4)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\startup.o --depend .\obj\startup.d)
+F (.\funciones.c)(0x532B1519)(--thumb -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\funciones.o --omf_browse .\obj\funciones.crf --depend .\obj\funciones.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x4C811262)
+I (LPC_FullCAN_SW.h)(0x4EECEA62)
+I (serial.h)(0x532B1519)
+I (setup.h)(0x530F9AB3)
+I (C:\Keil\ARM\RV31\INC\math.h)(0x4D01708C)
+F (.\LPC_FullCAN_SW.c)(0x4F0EECB1)(--thumb -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\lpc_fullcan_sw.o --omf_browse .\obj\lpc_fullcan_sw.crf --depend .\obj\lpc_fullcan_sw.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21XX.H)(0x4C811262)
+I (LPC_FullCAN_SW.h)(0x4EECEA62)
+I (setup.h)(0x530F9AB3)
+F (.\serial.c)(0x532B1519)(--thumb -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\serial.o --omf_browse .\obj\serial.crf --depend .\obj\serial.d)
+I (C:\Keil\ARM\INC\Philips\LPC21xx.H)(0x4C811262)
+F (.\setup.c)(0x531F2312)(--thumb -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\setup.o --omf_browse .\obj\setup.crf --depend .\obj\setup.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x4C811262)
+I (LPC_FullCAN_SW.h)(0x4EECEA62)
+I (setup.h)(0x530F9AB3)
+F (.\main.c)(0x532B1085)(--thumb -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x4C811262)
+I (LPC_FullCAN_SW.h)(0x4EECEA62)
+I (setup.h)(0x530F9AB3)
+I (funciones.h)(0x532B1519)
+I (serial.h)(0x532B1519)
