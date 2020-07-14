@@ -1,0 +1,35 @@
+Dependencies for Project 'Joystick funcional', Target 'LPC2129 Simulator': (DO NOT MODIFY !)
+F (.\Startup.s)(0x53024EC7)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\startup.o --depend .\obj\startup.d)
+F (.\funciones.c)(0x53A810D2)(--thumb -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\funciones.o --omf_browse .\obj\funciones.crf --depend .\obj\funciones.d)
+I (funciones.h)(0x53A81206)
+I (serial.h)(0x53026321)
+I (timer.h)(0x533989A5)
+I (LPC_FullCAN_SW.h)(0x530B75CF)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x4C812072)
+I (C:\Keil\ARM\RV31\INC\math.h)(0x4D017E9C)
+F (.\LPC_FullCAN_SW.c)(0x53981DCB)(--thumb -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\lpc_fullcan_sw.o --omf_browse .\obj\lpc_fullcan_sw.crf --depend .\obj\lpc_fullcan_sw.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21XX.H)(0x4C812072)
+I (LPC_FullCAN_SW.h)(0x530B75CF)
+I (funciones.h)(0x53A81206)
+F (.\serial.c)(0x538499E5)(--thumb -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\serial.o --omf_browse .\obj\serial.crf --depend .\obj\serial.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x4C812072)
+I (serial.h)(0x53026321)
+I (timer.h)(0x533989A5)
+I (funciones.h)(0x53A81206)
+F (.\timer.c)(0x53A3F5B0)(--thumb -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\timer.o --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x4C812072)
+I (timer.h)(0x533989A5)
+I (funciones.h)(0x53A81206)
+F (.\funciones_conversion.c)(0x539ED088)(--thumb -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\funciones_conversion.o --omf_browse .\obj\funciones_conversion.crf --depend .\obj\funciones_conversion.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x4C812072)
+I (funciones.h)(0x53A81206)
+I (timer.h)(0x533989A5)
+F (.\lookuptable.c)(0x53A05A63)(--thumb -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\lookuptable.o --omf_browse .\obj\lookuptable.crf --depend .\obj\lookuptable.d)
+I (funciones.h)(0x53A81206)
+F (.\main.c)(0x53A81238)(--thumb -c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (timer.h)(0x533989A5)
+I (C:\Keil\ARM\RV31\INC\math.h)(0x4D017E9C)
+I (funciones.h)(0x53A81206)
+I (serial.h)(0x53026321)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x4C812072)
+I (LPC_FullCAN_SW.h)(0x530B75CF)
